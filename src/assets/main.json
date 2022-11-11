@@ -1,0 +1,8 @@
+{
+    "name": "StreamFlix",
+    "links": {
+        "blog": "localhost:3001",
+        "releases": "localhost:3001",
+        "support": "localhost:3001"
+    }
+}

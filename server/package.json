@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Strem Flix - Server",
+  "main": "app.js",
+  "scripts": {
+    "dev": " nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Projset/streamflix.git"
+  },
+  "keywords": [
+    "streamflix",
+    "server"
+  ],
+  "author": "Stream Flix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Projset/streamflix/issues"
+  },
+  "homepage": "https://github.com/Projset/streamflix#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

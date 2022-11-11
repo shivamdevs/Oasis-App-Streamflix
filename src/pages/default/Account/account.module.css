@@ -1,0 +1,33 @@
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 15px;
+    flex-wrap: nowrap;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 400px;
+}
+.banner {
+    text-align: center;
+    padding: 20px;
+}
+.fluid {
+    min-height: 60vh;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #fff2;
+}
+.column {
+    padding: 20px;
+    text-align: right;
+}
+.column a {
+    margin: 4px 12px;
+    white-space: nowrap;
+}
