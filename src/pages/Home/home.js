@@ -18,7 +18,7 @@ function Home() {
         }
         return str;
     };
-    db.files.map(file => {
+    db.files.forEach(file => {
         file.key = gme();
         file.icon += `?room=${file.key}`;
     });
