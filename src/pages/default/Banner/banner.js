@@ -25,7 +25,11 @@ function Banner(props) {
     };
     const slideLeft = () => Slider.current.scrollLeft -= 500;
     const slideRight = () => Slider.current.scrollLeft += 500;
-    useEffect(() => (slideCheck(), Slider.current.scrollLeft = 80, window.addEventListener("resize", slideCheck, false)));
+    useEffect(() => {
+        slideCheck();
+        Slider.current.scrollLeft = 80;
+        window.addEventListener("resize", slideCheck, false);
+    });
 
     return (
         <div className={styles.container}>

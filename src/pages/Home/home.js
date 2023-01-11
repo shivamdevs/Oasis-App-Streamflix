@@ -18,7 +18,10 @@ function Home() {
         }
         return str;
     };
-    db.files.map(file => (file.key = gme(), file.icon += `?room=${file.key}`));
+    db.files.map(file => {
+        file.key = gme();
+        file.icon += `?room=${file.key}`;
+    });
     return (
         <div className={styles.home}>
             <Banner title={db.title} data={db.files} />
